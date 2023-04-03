@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "senior-node-server-app",
+  "version": "1.0.0",
+  "description": "node.js HTTP web server for bucket list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alischueler/senior-node-server-app.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "server",
+    "http"
+  ],
+  "author": "ali schueler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alischueler/senior-node-server-app/issues"
+  },
+  "homepage": "https://github.com/alischueler/senior-node-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
