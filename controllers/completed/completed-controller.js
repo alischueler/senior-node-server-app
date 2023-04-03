@@ -1,4 +1,5 @@
 import posts from "./completed.js";
+import * as completedDao from "./completed-dao.js"
 let completed = posts;
 
 const CompletedController = (app) => {
@@ -7,22 +8,23 @@ const CompletedController = (app) => {
     app.delete('/api/completed/:cid', deleteCompleted)
 }
 
-const findCompleted = (req, res) => {
-    res.json(completed)
+const findCompleted = async (req, res) => {
+    const completedC = await completedDao.findCompleted()
+    res.json(completedC);
 }
 
-const createCompleted = (req, res) => {
+const createCompleted = async (req, res) => {
     const newEntry = req.body;
-    newEntry._id = (new Date()).getTime()+'';
-    completed = [newEntry, ...completed]
-    res.json(newEntry);
+    const insertedCompleted = await completedDao
+        .createCompleted(newEntry);
+    res.json(insertedCompleted);
 }
 
-const deleteCompleted = (req, res) => {
+const deleteCompleted = async (req, res) => {
     const completedID = req.params['cid'];
-    completed = completed.filter(com =>
-        com._id !== completedID);
-    res.sendStatus(200);
+    const status = await completedDao
+        .deleteCompleted(completedID);
+    res.send(status);
 }
 
 

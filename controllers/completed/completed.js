@@ -1,11 +1,193 @@
 export default [
     {
+        "item": ["Cappys/NY Pizza and Cartwheels"],
+        "description": "also made it to the next event of the night with the help of NY Pizza and Cartwheels",
+        "person": "Lindsay",
+        "date": "4/1/2023",
+        "video": "LindsayPizza.mov"
+    },
+    {
+        "item": ["Cappys/NY Pizza and Cartwheels"],
+        "description": "completed her goal of making it out after formal, but with the help of NY Pizza and Cartwheels",
+        "person": "Ali",
+        "date": "4/1/2023",
+        "video": "AliPizza.mov"
+    },
+
+    {
+        "item": ["Board Game Night"],
+        "description": "also made it to the next event of the night with the help of NY Pizza and Cartwheels",
+        "person": "Maddie",
+        "date": "4/1/2023",
+        "image": "MaddieClaireBG.jpeg"
+    },
+    {
+        "item": ["Board Game Night"],
+        "description": "completed her goal of making it out after formal, but with the help of NY Pizza and Cartwheels",
+        "person": "Claire",
+        "date": "4/1/2023",
+        "image": "MaddieClaireBG.jpeg"
+    },
+
+    {
+        "item": ["Go to Harpoon"],
+        "description": "got some beers, pretzels, and a tour of harpoon",
+        "person": "Lindsay",
+        "date": "3/31/2023",
+        "image": "LindsayHarpoon.jpeg"
+    },
+    {
+        "item": ["Go to Harpoon"],
+        "description": "was stressing about getting to harpoon ontime",
+        "person": "Ali",
+        "date": "3/31/2023",
+        "image": "AliHarpoon.jpg"
+    },
+    {
+        "item": ["Go to Harpoon"],
+        "description": "got some beers, pretzels, and a tour of harpoon",
+        "person": "Maddie",
+        "date": "3/31/2023",
+        "image": "MaddieHarpoon.jpg"
+    },
+    {
+        "item": ["Go to Harpoon"],
+        "description": "was not the only purple haired girly at harpoon",
+        "person": "Claire",
+        "date": "3/31/2023",
+        "image": "ClaireHarpoon.jpg"
+    },
+    {
+        "item": ["Get a Tattoo/Piercing"],
+        "description": "got a tattoo of a Giraffe! She should name him gerald imo",
+        "person": "Lindsay",
+        "date": "3/31/2023",
+        "image": "LindsayTattoo.jpeg"
+    },
+    {
+        "item": ["Early Morning Pavement (and stay awhile for a main character moment)"],
+        "description": "worked from home at pavement",
+        "person": "Lindsay",
+        "date": "3/31/2023",
+        "image": "LindsayPavement.jpeg"
+    },
+    {
+        "item": ["Early Morning Pavement (and stay awhile for a main character moment)"],
+        "description": "worked very hard on this website at pavement ",
+        "person": "Ali",
+        "date": "3/31/2023",
+        "image": "AliPavement.jpeg"
+    },
+    {
+        "item": ["Go to IV Dining Hall for free"],
+        "description": "went to IV with SWSG friends!",
+        "person": "Claire",
+        "date": "3/30/2023",
+        "image": "ClaireIV.jpeg"
+    },
+    {
+        "item": ["Trivia Night in a Bar"],
+        "description": "went to the first every happy hour at Penguin Pizza (and won second)",
+        "person": "Claire",
+        "date": "3/29/2023",
+        "image": "Trivia.jpeg"
+    },
+    {
+        "item": ["Trivia Night in a Bar"],
+        "description": "went to the first every happy hour at Penguin Pizza (and won second)",
+        "person": "Ali",
+        "date": "3/29/2023",
+        "image": "Trivia.jpeg"
+    },
+    {
+        "item": ["Trivia Night in a Bar"],
+        "description": "went to the first every happy hour at Penguin Pizza (and won second)",
+        "person": "Lindsay",
+        "date": "3/29/2023",
+        "image": "Trivia.jpeg"
+    },
+    {
+        "item": ["Trivia Night in a Bar"],
+        "description": "went to the first every happy hour at Penguin Pizza (and won second)",
+        "person": "Maddie",
+        "date": "3/31/2023",
+        "video": "MaddieTrivia.mp4"
+    },
+    {
+        "item": ["Attend an ABC Party"],
+        "description": "slept on the floor of a bathroom",
+        "person": "Claire",
+        "date": "3/25/2023",
+        "image": "ClaireABC.jpeg"
+    },
+    {
+        "item": ["Attend an ABC Party"],
+        "description": "brought a moldy ass maple syrup container",
+        "person": "Lindsay",
+        "date": "3/25/2023",
+        "image": "LindsayABC.jpeg"
+    },
+    {
+        "item": ["Attend an ABC Party"],
+        "description": "brought an aquaphor container (how on brand)",
+        "person": "Ali",
+        "date": "3/25/2023",
+        "image": "AliABC.jpeg"
+    },
+    {
+        "item": ["Attend an ABC Party"],
+        "description": "brought a watering can (and admitted she didnt even wash it)",
+        "person": "Maddie",
+        "date": "3/25/2023",
+        "image": "MaddieABC.jpeg"
+    },
+
+    {
+        "item": ["Record a Podcast Episode"],
+        "description": "made a podcast about Outerbanks",
+        "person": "Maddie",
+        "date": "3/24/2023",
+        "file": ""
+    },
+    {
+        "item": ["Record a Podcast Episode"],
+        "description": "made a podcast about outerbanks",
+        "person": "Claire",
+        "date": "3/24/2023",
+        "file": ""
+    },
+
+    {
         "item": ["Drink a Guinness on St. Patty's"],
         "_id": 1,
         "description": "had a guinness on Sunday night, just under the wire",
         "person": "Claire",
         "date": "3/19/2023",
         "image": "ClaireG.jpeg"
+    },
+    {
+        "item": ["Bar Crawl"],
+        "_id": 2,
+        "description": "made it through the St.Patty's Day Bar Crawl",
+        "person": "Lindsay",
+        "date": "3/18/2023",
+        "image": "LindsayBarCrawl.jpeg"
+    },
+    {
+        "item": ["Bar Crawl"],
+        "_id": 2,
+        "description": "did many irish jigs at the St. Patty's Day Bar Crawl",
+        "person": "Ali",
+        "date": "3/18/2023",
+        "image": "AliBarCrawl.jpeg"
+    },
+    {
+        "item": ["Bar Crawl"],
+        "_id": 2,
+        "description": "decided a salad was exactly what she needed at the St Patty's Day Bar Crawl",
+        "person": "Maddie",
+        "date": "3/18/2023",
+        "image": "MaddieBarCrawl.jpeg"
     },
     {
         "item": ["Car bomb on saint Patty's day", "Drink a Guinness on St. Patty's"],
@@ -24,6 +206,13 @@ export default [
         "image": "AliCB.jpeg"
     },
     {
+        "item": ["Last-Minute weekend trip"],
+        "description": "Went to MN for Pep Band and the Women's Frozen Four!",
+        "person": "Claire",
+        "date": "3/17/2023",
+        "image": "ClaireWeekend.pdf"
+    },
+    {
         "item": ["Milkweed Brunch"],
         "_id": 4,
         "description": "went to milkweed to avoid jetlag",
@@ -39,6 +228,36 @@ export default [
         "date": "3/12/2023",
         "image": "AliMilkweed.jpeg"
     },
+
+
+    {
+        "item": ["Make drink bingo in Puerto Vallerta"],
+        "_id": 5,
+        "description": "went ham on getting drink bingo and got it twice",
+        "person": "Ali",
+        "date": "3/11/2023",
+        "image": ""
+    },
+    {
+        "item": ["Make drink bingo in Puerto Vallerta"],
+        "_id": 5,
+        "description": "had an easy board and pulled through with bingo",
+        "person": "Claire",
+        "date": "3/11/2023",
+        "image": ""
+    },
+    {
+        "item": ["Make drink bingo in Puerto Vallerta"],
+        "_id": 5,
+        "description": "barely snuck through by having to get a dirty shirely at an establishment",
+        "person": "Maddie",
+        "date": "3/11/2023",
+        "image": ""
+    },
+
+
+
+
     {
         "item": ["Bottomless Mimosas (banned in Boston so plan ahead)"],
         "_id": 6,
@@ -103,6 +322,40 @@ export default [
         "date": "3/5/2023",
         "image": "MaddieDrag.jpg"
     },
+
+    {
+        "item": ["Go Somewhere Warm for Spring Break"],
+        "_id": 13,
+        "description": "went backwards, upside down on a zipline in a for sure safe establishment in Puerto Vallerta for Spring Break",
+        "person": "Maddie",
+        "date": "3/4/2023",
+        "image": "MaddieSB.jpg"
+    },
+    {
+        "item": ["Go Somewhere Warm for Spring Break"],
+        "_id": 13,
+        "description": "finally wore the skims dress out of the house in Puerto Vallerta for spring break and I am very proud of her",
+        "person": "Lindsay",
+        "date": "3/4/2023",
+        "image": "LindsaySB.jpeg"
+    },
+    {
+        "item": ["Go Somewhere Warm for Spring Break"],
+        "_id": 13,
+        "description": "at the ripe age of 23 learned the art of bikini photos",
+        "person": "Claire",
+        "date": "3/4/2023",
+        "image": "ClaireSB.jpeg"
+    },
+    {
+        "item": ["Go Somewhere Warm for Spring Break"],
+        "_id": 13,
+        "description": "truly felt so amazing in Puerto Vallerta for Spring break",
+        "person": "Ali",
+        "date": "3/4/2023",
+        "image": "AliSB.jpeg"
+    },
+
     {
         "item": ["Record a Podcast Episode"],
         "_id": 14,
@@ -214,6 +467,22 @@ export default [
         "person": "Claire",
         "date": "2/13/2023",
         "image": "Beanpot.jpeg"
+    },
+    {
+        "item": ["Board Game Night"],
+        "_id": 27,
+        "description": "played catan with Shantih and her friend from home (and won!)",
+        "person": "Ali",
+        "date": "2/13/2023",
+        "image": "AliBG.jpeg"
+    },
+    {
+        "item": ["Board Game Night"],
+        "_id": 27,
+        "description": "played catan with Shantih and her friend from home and tried really really hard to win but did not",
+        "person": "Lindsay",
+        "date": "2/13/2023",
+        "image": "LindsayBG.jpeg"
     },
     {
         "item": ["Cheers to the Governor at a nice restaurant"],
