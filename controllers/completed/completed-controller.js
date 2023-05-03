@@ -1,6 +1,4 @@
-import posts from "./completed.js";
 import * as completedDao from "./completed-dao.js"
-let completed = posts;
 
 const CompletedController = (app) => {
     app.get('/api/completed', findCompleted)

@@ -2,6 +2,7 @@ import express from "express"
 import mongoose from "mongoose";
 import cors from 'cors'
 import CompletedController from "./controllers/completed/completed-controller.js";
+import DrinksController from "./controllers/drinks/drinks-controller.js";
 const app = express()
 app.use(express.json());
 app.use(cors());
@@ -10,5 +11,6 @@ mongoose.connect(CONNECTION_STRING);
 console.log(CONNECTION_STRING)
 app.get('/hello', (req, res) => {res.send('Hello World!')})
 CompletedController(app)
+DrinksController(app)
 
 app.listen(process.env.PORT || 4000)
